@@ -149,6 +149,7 @@
                                                                         .topics__container {
                                                                             display: flex;
                                                                             gap: 10px;
+                                                                            padding:10px;
                                                                             margin-top: 10px;
                                                                             flex-wrap: wrap;
                                                                         }
@@ -156,7 +157,7 @@
                                                                         .topics__container p {
                                                                             border: solid gray 2px;
                                                                             padding: 10px;
-                                                                            flex-grow: 1px;
+                                                                            flex-grow: 1;
                                                                             flex-basis: 25%;
                                                                         }
                                                                         
@@ -220,4 +221,5 @@
                                                                             .navbar__s4 {
                                                                                 display: block;
                                                                             }
+
                                                                         }
