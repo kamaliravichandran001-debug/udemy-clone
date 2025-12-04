@@ -1,0 +1,223 @@
+                                                                        * body {
+                                                                            font-family: 'Gabarito', sans-serif;
+                                                                        }
+                                                                        
+                                                                        .navbar {
+                                                                            padding: 10px;
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            border-bottom: solid black 1px;
+                                                                            gap: 10px;
+                                                                            align-items: center;
+                                                                            position: sticky;
+                                                                            top: 0;
+                                                                        }
+                                                                        
+                                                                        h1 {
+                                                                            color: #A435F0;
+                                                                        }
+                                                                        
+                                                                        .navbar__s2 {
+                                                                            padding: 10px;
+                                                                            border: solid black 1px;
+                                                                            border-radius: 30px;
+                                                                            width: 70%;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            flex-direction: row;
+                                                                            gap: 10px;
+                                                                            background-color: white;
+                                                                        }
+                                                                        
+                                                                        .navbar__s2 input {
+                                                                            border: none;
+                                                                            background-color: transparent;
+                                                                            width: 100%;
+                                                                        }
+                                                                        
+                                                                        .navbar__s2 input:focus {
+                                                                            outline: none;
+                                                                        }
+                                                                        
+                                                                        .navbar__s3 {
+                                                                            display: flex;
+                                                                            gap: 10px;
+                                                                            align-items: center;
+                                                                        }
+                                                                        
+                                                                        .navbar__s4 {
+                                                                            display: none;
+                                                                        }
+                                                                        /* My learning popup*/
+                                                                        
+                                                                        .mylearning {
+                                                                            position: relative;
+                                                                        }
+                                                                        
+                                                                        .mylearning__popup {
+                                                                            position: absolute;
+                                                                            border: solid black 1px;
+                                                                            width: 100px;
+                                                                            top: 150%;
+                                                                            background-color: white;
+                                                                            padding: 20px;
+                                                                            display: none;
+                                                                            right: 0;
+                                                                        }
+                                                                        
+                                                                        .mylearning:hover .mylearning__popup {
+                                                                            display: block;
+                                                                        }
+                                                                        
+                                                                        .Categories {
+                                                                            display: flex;
+                                                                            padding: 10px;
+                                                                            border-bottom: solid black 1px;
+                                                                            justify-content: space-around;
+                                                                        }
+                                                                        
+                                                                        .Categories p {
+                                                                            background-color: #A435F0;
+                                                                            color: white;
+                                                                            padding: 5px;
+                                                                            border-radius: 30px;
+                                                                            cursor: pointer;
+                                                                        }
+                                                                        
+                                                                        .Categories p:hover {
+                                                                            transition: 2s;
+                                                                            background-color: transparent;
+                                                                            color: black;
+                                                                            border: solid #A435F0 1px;
+                                                                        }
+                                                                        
+                                                                        .sale-img img {
+                                                                            width: 100%;
+                                                                        }
+                                                                        
+                                                                        .sale-img__offer {
+                                                                            width: 35%;
+                                                                            border: solid black 2px;
+                                                                            background-color: white;
+                                                                            padding: 2%;
+                                                                            position: absolute;
+                                                                            top: 20%;
+                                                                            left: 10%;
+                                                                            animation-name: zoom;
+                                                                            animation-duration: 2s;
+                                                                            opacity: 0;
+                                                                            animation-fill-mode: forwards;
+                                                                        }
+                                                                        
+                                                                        @keyframes zoom {
+                                                                            0% {
+                                                                                transform: scale(0);
+                                                                                opacity: 0;
+                                                                            }
+                                                                            100% {
+                                                                                transform: scale(1);
+                                                                                opacity: 1;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .recommended {
+                                                                            padding: 10px;
+                                                                        }
+                                                                        
+                                                                        .recommended__container {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            flex-wrap: wrap;
+                                                                            margin-top: 10px;
+                                                                        }
+                                                                        
+                                                                        .course-card {
+                                                                            flex-grow: 1;
+                                                                            flex-basis: 20%;
+                                                                            margin: 5px;
+                                                                        }
+                                                                        
+                                                                        .course-card img {
+                                                                            width: 100%;
+                                                                            height: 50%;
+                                                                        }
+                                                                        
+                                                                        .topics {
+                                                                            padding: 10px;
+                                                                        }
+                                                                        
+                                                                        .topics__container {
+                                                                            display: flex;
+                                                                            gap: 10px;
+                                                                            margin-top: 10px;
+                                                                            flex-wrap: wrap;
+                                                                        }
+                                                                        
+                                                                        .topics__container p {
+                                                                            border: solid gray 2px;
+                                                                            padding: 10px;
+                                                                            flex-grow: 1px;
+                                                                            flex-basis: 25%;
+                                                                        }
+                                                                        
+                                                                        .popular {
+                                                                            padding: 10px;
+                                                                        }
+                                                                        
+                                                                        .popular__container {
+                                                                            display: flex;
+                                                                            flex-wrap: wrap;
+                                                                            justify-content: space-between;
+                                                                            margin-top: 10px;
+                                                                        }
+                                                                        
+                                                                        .footer {
+                                                                            padding: 10px;
+                                                                            background-color: black;
+                                                                            color: white;
+                                                                            width: 100%;
+                                                                        }
+                                                                        
+                                                                        .footer__one {
+                                                                            display: flex;
+                                                                            gap: 15px;
+                                                                            padding: 10px;
+                                                                            margin: 10px;
+                                                                        }
+                                                                        
+                                                                        .footer__one__s1 p {
+                                                                            margin: 12px;
+                                                                        }
+                                                                        
+                                                                        .footer__one__s2 p {
+                                                                            margin: 12px;
+                                                                        }
+                                                                        
+                                                                        .footer__two {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            align-items: center;
+                                                                        }
+                                                                        /* media querise */
+                                                                        
+                                                                        @media screen and (max-width:800px) {
+                                                                            body {
+                                                                                font-size: 10px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media screen and (max-width:800px) {
+                                                                            .course-card {
+                                                                                flex-basis: 40%;
+                                                                            }
+                                                                            .Categories {
+                                                                                display: none;
+                                                                            }
+                                                                            .navbar__s2,
+                                                                            .navbar__s3 {
+                                                                                display: none;
+                                                                            }
+                                                                            .navbar__s4 {
+                                                                                display: block;
+                                                                            }
+                                                                        }
